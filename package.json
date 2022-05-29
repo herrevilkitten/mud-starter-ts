@@ -1,0 +1,24 @@
+{
+  "name": "mud-starter-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "ts-node src/index"
+  },
+  "keywords": [],
+  "author": {
+		"name": "Eric Kidder",
+		"email": "kageneko@evilkitten.org"
+	},
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35"
+  }
+}
